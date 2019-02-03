@@ -1,6 +1,6 @@
 {
-  "name": "@bigcommerce/stencil-styles",
-  "version": "1.1.0",
+  "name": "big-styles",
+  "version": "1.2.0",
   "description": "Compiles SCSS for the Stencil Framework",
   "main": "lib/index.js",
   "scripts": {
@@ -11,16 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/bigcommerce/stencil-styles.git"
+    "url": "git+ssh://git@github.com/angry-penguins/big-styles.git"
   },
   "author": "Bigcommerce",
   "license": "BSD-4-Clause",
   "bugs": {
     "url": "https://github.com/bigcommerce/stencil-styles/issues"
   },
-  "homepage": "https://github.com/bigcommerce/stencil-styles#readme",
+  "homepage": "https://github.com/crazy-penguins/stencil-styles#readme",
   "dependencies": {
-    "@bigcommerce/node-sass": "git://github.com/bigcommerce-labs/node-sass.git#v3.4.4",
+    "node-sass": "4.11.0",
     "autoprefixer": "^6.7.3",
     "lodash": "^3.10.1",
     "postcss": "^5.2.14"
